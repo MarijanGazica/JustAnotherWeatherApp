@@ -8,7 +8,7 @@ class WeatherRepo(
     private val httpClient: HttpClient
 ) {
     private companion object {
-        const val API_KEY = "1d798df47d7479aeb448fb24cc442065"
+        const val API_KEY = "1798df47d7479aeb448fb24cc442065"
     }
 
     suspend fun getWeather(): LocationWeather {
